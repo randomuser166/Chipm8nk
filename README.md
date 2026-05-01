@@ -11,7 +11,7 @@ Once you successfully imported the Chipm8nk library into your .fla file, creatin
 ```
 import cpu.chipm8nk.Chipm8nk
 
-var cpu:Chipm8nk = new Chipm8nk(this); //
+var cpu:Chipm8nk = new Chipm8nk(this);
 
 ```
 

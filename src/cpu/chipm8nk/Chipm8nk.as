@@ -98,7 +98,7 @@ package cpu.chipm8nk {
 		    ST = 0x00;
 		}
 		
-		function generateTone(e:SampleDataEvent):void {
+		private function generateTone(e:SampleDataEvent):void {
            var frequency:Number = 440;
            var sampleRate:int = 44100;
     

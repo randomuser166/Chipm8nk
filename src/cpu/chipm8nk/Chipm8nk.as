@@ -1,4 +1,4 @@
-﻿// made by scratchfurry 2026
+﻿// made by randomuser166 2026
 
 package cpu.chipm8nk {
 	import flash.events.Event;

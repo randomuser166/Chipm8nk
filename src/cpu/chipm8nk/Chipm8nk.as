@@ -13,7 +13,6 @@ package cpu.chipm8nk {
 	import flash.display.Bitmap;
 	import flash.display.DisplayObjectContainer;
 	import flash.geom.Rectangle;
-	import flash.net.SharedObject;
 	
 	public class Chipm8nk extends Sprite {
 		private var memory:Vector.<uint> = new Vector.<uint>(0x1000);
@@ -225,7 +224,7 @@ package cpu.chipm8nk {
 					}
 					
 					if (NN == 0xEE) { // rts
-					    SP = (SP - 1)& 0x0F;
+					    SP = (SP - 1) & 0x0F;
 						PC = stack[SP];
 					}
 					

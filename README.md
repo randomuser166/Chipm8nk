@@ -1,6 +1,8 @@
 # Chipm8nk
 A CHIP-8 interpreter for ActionScript 3. It implements all of the 35 CHIP-8 instructions.
 
+I also have put some CHIP-8 ROMS in this repo as well so you can test them in the interpreter.
+
 I wrote this code in Adobe Flash CS4, and this is also my first emulator in AS3. (i plan in making more emulators in the future :3)
 
 # Importing Chipm8nk in Flash
